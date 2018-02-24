@@ -1,0 +1,29 @@
+{
+	"ImportPath": "github.com/dmowcomber/hdmi-cec-homekit",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/bah2830/hdmi-cec-rest/hdmiControl",
+			"Comment": "0.1-1-g613ebed",
+			"Rev": "613ebed0c86845b62c858c221d035451f106f551"
+		},
+		{
+			"ImportPath": "github.com/bah2830/hdmi-cec-rest/webservice",
+			"Comment": "0.1-1-g613ebed",
+			"Rev": "613ebed0c86845b62c858c221d035451f106f551"
+		},
+		{
+			"ImportPath": "github.com/chbmuc/cec",
+			"Rev": "573ad0b0369b066e2fb005c10e0b9ca7158da1e5"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.6.0-4-gc572efe",
+			"Rev": "c572efe4294d5a0e354e01f2ddaa8b1f0c3cb3dd"
+		}
+	]
+}
