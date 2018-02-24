@@ -13,9 +13,9 @@ ENV GOPATH=/go
 
 RUN mkdir /go
 
-RUN go get github.com/dmowcomber/hdmi-cec-rest
+RUN go get github.com/dmowcomber/hdmi-cec-homekit
 
 # cleanup
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-CMD ["/go/bin/hdmi-cec-rest"]
+CMD ["/go/bin/hdmi-cec-homekit"]
